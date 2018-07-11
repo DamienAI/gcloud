@@ -51,6 +51,8 @@ The command will create tfstate files, do not remove or commit then. You will ne
 It is really easy to destory quickly all the resources created during the apply by running the following command, assuming you didn't destroy the terraform states:
 ```terraform destroy -var-file="project.tfvars"```
 
+# Connect to your VM
+If you created a single compute instance you can use the gssh.sh script to connect to it. It will ask terraform to provide the instance information so you must run it from the directory you used for terraform.
 
 
 
