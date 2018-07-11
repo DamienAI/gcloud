@@ -16,6 +16,8 @@ run:
 # Create a project for your VMs - The create-project.sh script
 You must create a project for your VMs, using the create-project.sh script. This script requires a single argument, the project name which must be unique for the entire cloud. e.g. aivm-2018
 
+Note: You should run this script from the directory which contains your terraform files since it will output the vars file to use for terraform operations.
+
 ## Credential files
 The credential file created by the create-project script must be considered as CONFIDENTIAL. Do not commit it in any git repository.
 
