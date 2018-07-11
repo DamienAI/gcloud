@@ -19,6 +19,8 @@ You must create a project for your VMs, using the create-project.sh script. This
 ## Credential files
 The credential file created by the create-project script must be considered as CONFIDENTIAL. Do not commit it in any git repository.
 
+By default it is created in ``` ~/.config/gcloud/terraform-admin-${project_name}.json```.
+
 ## Operations performed by the script
 
 1 - Create the project.
